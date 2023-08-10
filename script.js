@@ -1,14 +1,4 @@
-/* script- para mudar fundo da pagina */
 
-// Seleciona o botão e adiciona um ouvinte de evento para o evento "click"
-const button = document.getElementById("change-background-button");
-button.addEventListener("click", function () {
-  // Seleciona o elemento "body" e adiciona ou remove a classe "background2"
-  document.body.classList.toggle("background2");
-});
-/* script- para mudar fundo da pagina */
-
-/* audio */
 
 const audio = document.getElementById("audio");
 const playpause = document.getElementById("playpause");

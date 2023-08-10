@@ -1,0 +1,162 @@
+
+
+nav {
+	display: flex;
+	color: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+    padding: 0 20px;
+}
+
+
+
+
+.participantes{
+	display: flex;
+}
+
+
+
+
+.logo-1{
+	display: flex;
+	align-content: space-around;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.logo-1:hover {
+	opacity: 0.8;
+}
+
+.logo-1 a{
+	display: flex;
+	margin: 20px;
+	
+}
+
+
+
+.logo-1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+li:hover {
+	margin: 5px;
+	padding: 5px;
+	border-radius: 20px;
+	background-color: #a000fd;
+}
+
+.logo-2{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.logo-2 a{
+	display: flex;
+	margin-left: 5px;
+	margin: 20px;
+	
+}
+
+.zero{
+margin: 5px;
+}
+
+.logo-2 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* before 1*/
+.logo-1 {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-1 img {
+    
+    transition: opacity 0.3s ease;
+}
+
+.logo-1:hover img {
+    opacity: 0; /* Torna a imagem original transparente ao passar o mouse */
+}
+
+.logo-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://web3auth.io/docs/content-hub/logo-github.png");
+    background-size: cover;
+    opacity: 0; /* Começa transparente */
+    transition: opacity 2s ease;
+}
+
+.logo-1:hover::before {
+    opacity: 1; /* Torna a nova imagem visível ao passar o mouse */
+}
+
+
+
+/* before 2*/
+.logo-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-2 img {
+    
+    transition: opacity 0.3s ease;
+}
+
+.logo-2:hover img {
+    opacity: 0; /* Torna a imagem original transparente ao passar o mouse */
+}
+
+.logo-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://web3auth.io/docs/content-hub/logo-github.png");
+    background-size: cover;
+    opacity: 0; /* Começa transparente */
+    transition: opacity 2s ease;
+}
+
+.logo-2:hover::before {
+    opacity: 1; /* Torna a nova imagem visível ao passar o mouse */
+}
+
+
+

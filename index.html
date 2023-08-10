@@ -6,44 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/background.css">
+    <link rel="stylesheet" href="/css/midiaplayer.css">
+    <link rel="stylesheet" href="/css/modos.css">
+    <link rel="stylesheet" href="/css/data.css">
     <link rel="shortcut icon" href="img/cantar.png" type="image/x-icon">
-
-    <script
-  src="https://code.jquery.com/jquery-3.6.3.min.js"
-  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-  crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/nixie-one" rel="stylesheet">
+                
 
     <title>Radio-Sleep mode</title>
+
   </head>
   <body>
 
-    <!-- NAVBAR -->
-    <!-- NAVBAR -->
+    <p>Created By: Caiam & Marco</p>
     <nav>
-      <div class="logo-container">
-        <a href="" target=""><img src="img/BOLADO3K_anime_neon_4k_239251ed-6926-4595-973b-cc29f8cf7fe9.png" alt="logo"></a>
-        <a href="" target=""><img src="img/BOLADO3K_anime_neon_4k_239251ed-6926-4595-973b-cc29f8cf7fe9.png" alt="logo"></a>
-        
+
+      <div class="participantes">
+        <div class="logo-1">
+          <a href="https://github.com/BOLADO2K" target="_blank" ><img src="img/BOLADO3K_anime_neon_4k_239251ed-6926-4595-973b-cc29f8cf7fe9.png" alt="logo"></a>
+        </div>
+        <div class="zero">
+
+        </div>
+        <div class="logo-2">
+          <a href="https://github.com/MarcoPitanga" target="_blank"><img src="https://www.giantfreakinrobot.com/wp-content/uploads/2021/06/one-punch-man-3.jpg" alt="logo"></a>
+        </div>
+
       </div>
-      <ul>
-        <!-- botão para mudar imagem de fundo -->
-        <button id="change-background-button">
-          <img src="img/gallery.png" alt="logo">
-        </button>
-        <!-- botão para mudar imagem de fundo -->
-      </div>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
+       
     </nav>
-    <!-- NAVBAR -->
-    <!-- NAVBAR -->
+    
     
 
+  
+
+
+  <div class="datetime-container">
+    <p id="datetime"></p>
+</div>
 
 
 
+    <!-- BOTÃO DE PLAYER -->
+    <!-- BOTÃO DE PLAYER -->
+    
     <!-- BOTÃO DE PLAYER -->
     <!-- BOTÃO DE PLAYER -->
     <div id="playbar">
@@ -52,8 +60,7 @@
       <button id="playpause">Play</button>
       <input type="range" id="volume" min="0" max="1" step="0.01">
     </div>
-    <!-- BOTÃO DE PLAYER -->
-    <!-- BOTÃO DE PLAYER -->
+    
 
     
     
@@ -64,6 +71,14 @@
     
 
     <script src="script.js"></script>
+    <script src="data.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+
+  
+
   </body>
 </html>
 

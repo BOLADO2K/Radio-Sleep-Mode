@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/nixie-one');
+
+
+                                                
+
+.datetime-container {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#datetime{
+    font-size: 50px;
+    font-family: 'Nixie One', sans-serif;
+                                                
+}
