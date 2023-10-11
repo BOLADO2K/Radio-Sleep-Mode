@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: #33333346;
     color: #fff;
     display: flex;
@@ -17,16 +17,16 @@
   #playpause {
       cursor: pointer;
       outline: none;
-      border-radius: 15px;
+      border-radius: 50px;
       border-style: none;
-      width: 70px;
-      height: 40px;
+      width: 55px;
+      height: 50px;
   }
   
-  #playpause:hover {
-      background-color: #538ce0;
-      outline: none;
-  }
+   #playpause:hover{
+      background-color: #fff;
+      border-style: none;
+  } 
 
 
   .fa-volume-down,

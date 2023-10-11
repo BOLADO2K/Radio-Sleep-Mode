@@ -26,3 +26,18 @@ playpause.addEventListener("click", togglePlayPause);
 volume.addEventListener("input", setVolume);
 
 /* audio */
+
+let foto = 1 ;
+
+function mudar(){
+  let trocar = document.getElementById("playpause");
+
+  if (foto === 1){
+    trocar.src="img/pause.png"
+    foto = 2
+  } else {
+    trocar.src = "img/play.png"
+    foto = 1
+  }
+};
+
